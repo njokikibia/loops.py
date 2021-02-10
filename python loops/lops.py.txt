@@ -1,0 +1,21 @@
+math=int(input('math'))
+sci=int(input("sci-"))
+eng=int(input("eng-"))
+cre=int(input("cre-"))
+hsc=int(input("hsc"))
+
+sum=(math+sci+eng+cre+hsc)
+print(sum)
+avg=sum/5
+print(avg)
+
+if avg>=70 and avg<=100:
+    print("A")
+elif avg>=60 and avg<=69:
+    print("B")
+elif avg>=50 and avg<=59:
+    print("C")
+elif avg>=40 and avg<=49:
+    print("D")
+else:
+    print("E fail")
